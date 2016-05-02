@@ -1,23 +1,26 @@
 {
-    "name": "chiba-server",
-    "version":"0.1.0",
-    "description": "Server for chiba-project",
-    "main": "index.js",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/myzWILLmake/Chiba-Server.git"
-    },
-    "author": "Yunze",
-    "dependencies":{
-        "express": "^4.10.0",
-        "express-session": "^1.10.0",
-        "body-parser": "^1.15.0",
-        "async": "^1.5.0",
-        "connect-mongo": "^1.1.0",
-        "mongoose": "^4.4.0",
-        "md5": "^2.0.0",
-        "mysql": "^2.10.0",
-        "socket.io": "^1.4.0"
-    }
+  "name": "chiba-server",
+  "version": "0.1.0",
+  "description": "Server for chiba-project",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myzWILLmake/Chiba-Server.git"
+  },
+  "author": "Yunze",
+  "dependencies": {
+    "express": "^4.10.0",
+    "express-session": "^1.10.0",
+    "body-parser": "^1.15.0",
+    "async": "^1.5.0",
+    "connect-mongo": "^1.1.0",
+    "mongoose": "^4.4.0",
+    "md5": "^2.0.0",
+    "mysql": "^2.10.0",
+    "socket.io": "^1.4.0"
+  },
+  "devDependencies": {
+    "request": "^2.72.0"
+  }
 }
