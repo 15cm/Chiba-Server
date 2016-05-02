@@ -8,6 +8,7 @@ var task = require('./lib/task');
 
 var app = express();
 app.listen(9000);
+console.log("Listening on 9000...");
 
 app.use(session({
     secret: 'Akagi.moe',
